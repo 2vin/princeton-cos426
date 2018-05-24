@@ -57,4 +57,101 @@ Look for the output files in the output/ subdirectory.
 you just created.  Open writeup.html in a web browser to see the webpage.
 
 
+## Results
+
+# Brightness     
+
+Input Image    
+![alt text](https://raw.githubusercontent.com/2vin/princeton-cos426/master/input/princeton_small.jpg)
+
+Brightness = 0.0   
+![alt text](https://raw.githubusercontent.com/2vin/princeton-cos426/master/output/princeton_small_brightness_0.0.jpg)
+
+Brightness = 0.5  
+![alt text](https://raw.githubusercontent.com/2vin/princeton-cos426/master/output/princeton_small_brightness_0.5.jpg)
+
+Brightness = 2.0   
+![alt text](https://raw.githubusercontent.com/2vin/princeton-cos426/master/output/princeton_small_brightness_2.0.jpg)
+
+
+# Contrast   
+
+Input Image    
+![alt text](https://raw.githubusercontent.com/2vin/princeton-cos426/master/input/princeton_small.jpg)
+
+Contrast = -0.5    
+![alt text](https://raw.githubusercontent.com/2vin/princeton-cos426/master/output/c_contrast_-0.5.jpg)
+
+Contrast = 0.0   
+![alt text](https://raw.githubusercontent.com/2vin/princeton-cos426/master/output/c_contrast_0.0.jpg)
+
+Contrast = 0.5    
+![alt text](https://raw.githubusercontent.com/2vin/princeton-cos426/master/output/c_contrast_0.5.jpg)
+
+Contrast = 2.0   
+![alt text](https://raw.githubusercontent.com/2vin/princeton-cos426/master/output/c_contrast_2.0.jpg)
+
+# Blur    
+
+Input Image    
+![alt text](https://raw.githubusercontent.com/2vin/princeton-cos426/master/input/princeton_small.jpg)
+
+Blur = 0.125    
+![alt text](https://raw.githubusercontent.com/2vin/princeton-cos426/master/output/blur_0.125.jpg)
+
+Blur = 2    
+![alt text](https://raw.githubusercontent.com/2vin/princeton-cos426/master/output/blur_2.jpg)
+
+Blur = 8    
+![alt text](https://raw.githubusercontent.com/2vin/princeton-cos426/master/output/blur_8.jpg)
+
+
+# Sharpen
+
+Input Image    
+![alt text](https://raw.githubusercontent.com/2vin/princeton-cos426/master/input/princeton_small.jpg)
+
+Sharpened Image   
+![alt text](https://raw.githubusercontent.com/2vin/princeton-cos426/master/output/sharpened.jpg)
+
+
+# Edge detect
+
+Input Image    
+![alt text](https://raw.githubusercontent.com/2vin/princeton-cos426/master/input/princeton_small.jpg)
+
+Edges    
+![alt text](https://raw.githubusercontent.com/2vin/princeton-cos426/master/output/edgedetect.jpg)
+
+
+# Scale
+
+Input Image    
+![alt text](https://raw.githubusercontent.com/2vin/princeton-cos426/master/input/scaleinput.jpg)    
+
+Point Sampling   
+![alt text](https://raw.githubusercontent.com/2vin/princeton-cos426/master/output/scale_point.jpg)    
+
+Bilinear Sampling   
+![alt text](https://raw.githubusercontent.com/2vin/princeton-cos426/master/output/scale_bilinear.jpg)    
+
+
+# Composite
+
+Base Image		
+![alt text](https://raw.githubusercontent.com/2vin/princeton-cos426/master/input/comp_background.jpg)    
+
+Top Image		
+![alt text](https://raw.githubusercontent.com/2vin/princeton-cos426/master/input/comp_foreground.jpg)    
+
+Alpha Channel    
+![alt text](https://raw.githubusercontent.com/2vin/princeton-cos426/master/input/comp_mask.jpg)  
+
+Result    
+![alt text](https://raw.githubusercontent.com/2vin/princeton-cos426/master/output/composite.jpg) 
+
+
+
+
+
 
