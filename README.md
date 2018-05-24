@@ -15,16 +15,16 @@ NMakefile - script for the "nmake" tool (used with Visual Studio) to execute you
 
 writeup.html - Skeleton HTML file for you to use as a basis for your writeup. Basics have been written already. Only modify if you have done anything extra and please do highlight that in your submission.
 
-src/ - Directory with source code.
-    Makefile - Unix/Mac/Cygwin makefile for building your code with "make".
-    cos426_assignment1.sln - Project file for Visual Studio.
-    imgpro.cpp - Main program: parses the command line arguments, and calls the appropriate image functions.
-    R2Image.[cpp/h] - Image class with processing functions. ** This is the only file that you need to edit. **
-    R2Pixel.[cpp/h] - Pixel class.
-    morphlines.cpp - A program for specifying line correspondences between two images, which you will use for morphing.  
-    R2/ - A library of useful 2D geometric primitives.  Built automatically.
-    jpeg/ - A library for reading/writing JPEG files.  Built automatically.
-    fglut/ - A library for creating windows for OpenGL rendering (used by morphlines).
+src/ - Directory with source code.		
+    Makefile - Unix/Mac/Cygwin makefile for building your code with "make".	
+    cos426_assignment1.sln - Project file for Visual Studio.	
+    imgpro.cpp - Main program: parses the command line arguments, and calls the appropriate image functions.	
+    R2Image.[cpp/h] - Image class with processing functions. ** This is the only file that you need to edit. **	
+    R2Pixel.[cpp/h] - Pixel class.	
+    morphlines.cpp - A program for specifying line correspondences between two images, which you will use for morphing.  	
+    R2/ - A library of useful 2D geometric primitives.  Built automatically.	
+    jpeg/ - A library for reading/writing JPEG files.  Built automatically.	
+    fglut/ - A library for creating windows for OpenGL rendering (used by morphlines).	
 
 HOW TO PROCEED
 ==============
@@ -57,7 +57,7 @@ Look for the output files in the output/ subdirectory.
 you just created.  Open writeup.html in a web browser to see the webpage.
 
 
-## Results
+## 							Results
 
 # Brightness     
 
@@ -77,7 +77,7 @@ Brightness = 2.0
 # Contrast   
 
 Input Image    
-![alt text](https://raw.githubusercontent.com/2vin/princeton-cos426/master/input/princeton_small.jpg)
+![alt text](https://raw.githubusercontent.com/2vin/princeton-cos426/master/input/c.jpg)
 
 Contrast = -0.5    
 ![alt text](https://raw.githubusercontent.com/2vin/princeton-cos426/master/output/c_contrast_-0.5.jpg)
@@ -132,22 +132,22 @@ Input Image
 Point Sampling   
 ![alt text](https://raw.githubusercontent.com/2vin/princeton-cos426/master/output/scale_point.jpg)    
 
-Bilinear Sampling   
+Bilinear Sampling	   
 ![alt text](https://raw.githubusercontent.com/2vin/princeton-cos426/master/output/scale_bilinear.jpg)    
 
 
 # Composite
 
-Base Image		
+Base Image    		
 ![alt text](https://raw.githubusercontent.com/2vin/princeton-cos426/master/input/comp_background.jpg)    
 
-Top Image		
+Top Image    		
 ![alt text](https://raw.githubusercontent.com/2vin/princeton-cos426/master/input/comp_foreground.jpg)    
 
-Alpha Channel    
+Alpha Channel       
 ![alt text](https://raw.githubusercontent.com/2vin/princeton-cos426/master/input/comp_mask.jpg)  
 
-Result    
+Result        
 ![alt text](https://raw.githubusercontent.com/2vin/princeton-cos426/master/output/composite.jpg) 
 
 
