@@ -57,9 +57,14 @@ Look for the output files in the output/ subdirectory.
 you just created.  Open writeup.html in a web browser to see the webpage.
 
 
-## 							Results
 
-# Brightness     
+
+
+
+
+#						Results
+
+## Brightness     
 
 Input Image    
 ![alt text](https://raw.githubusercontent.com/2vin/princeton-cos426/master/input/princeton_small.jpg)
@@ -74,7 +79,7 @@ Brightness = 2.0
 ![alt text](https://raw.githubusercontent.com/2vin/princeton-cos426/master/output/princeton_small_brightness_2.0.jpg)
 
 
-# Contrast   
+## Contrast   
 
 Input Image    
 ![alt text](https://raw.githubusercontent.com/2vin/princeton-cos426/master/input/c.jpg)
@@ -91,7 +96,7 @@ Contrast = 0.5
 Contrast = 2.0   
 ![alt text](https://raw.githubusercontent.com/2vin/princeton-cos426/master/output/c_contrast_2.0.jpg)
 
-# Blur    
+## Blur    
 
 Input Image    
 ![alt text](https://raw.githubusercontent.com/2vin/princeton-cos426/master/input/princeton_small.jpg)
@@ -106,16 +111,16 @@ Blur = 8
 ![alt text](https://raw.githubusercontent.com/2vin/princeton-cos426/master/output/blur_8.jpg)
 
 
-# Sharpen
+## Sharpen
 
 Input Image    
 ![alt text](https://raw.githubusercontent.com/2vin/princeton-cos426/master/input/princeton_small.jpg)
 
 Sharpened Image   
-![alt text](https://raw.githubusercontent.com/2vin/princeton-cos426/master/output/sharpened.jpg)
+![alt text](https://raw.githubusercontent.com/2vin/princeton-cos426/master/output/sharpen.jpg)
 
 
-# Edge detect
+## Edge detect
 
 Input Image    
 ![alt text](https://raw.githubusercontent.com/2vin/princeton-cos426/master/input/princeton_small.jpg)
@@ -124,7 +129,7 @@ Edges
 ![alt text](https://raw.githubusercontent.com/2vin/princeton-cos426/master/output/edgedetect.jpg)
 
 
-# Scale
+## Scale
 
 Input Image    
 ![alt text](https://raw.githubusercontent.com/2vin/princeton-cos426/master/input/scaleinput.jpg)    
@@ -136,12 +141,12 @@ Bilinear Sampling
 ![alt text](https://raw.githubusercontent.com/2vin/princeton-cos426/master/output/scale_bilinear.jpg)    
 
 
-# Composite
+## Composite
 
-Base Image    		
+Base Image    
 ![alt text](https://raw.githubusercontent.com/2vin/princeton-cos426/master/input/comp_background.jpg)    
 
-Top Image    		
+Top Image    
 ![alt text](https://raw.githubusercontent.com/2vin/princeton-cos426/master/input/comp_foreground.jpg)    
 
 Alpha Channel       
